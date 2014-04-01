@@ -1,0 +1,80 @@
+@media screen and (max-width: 992px) {
+	.delivery, .phone{
+		background-size:22px;
+		font:bold 12px sans-serif;
+		margin-top: 60px;
+        margin-left:-10px;
+	}
+	#logo1{
+		background-size: 45px 62px;
+		height: 62px;
+		width: 45px;
+		margin-top: 14px;
+	}
+	#gear1, #gear2, #gear3, #gear4, #gear5, #gear6, #gear7, #gear8, #gear1z, #gear2z, #gear3z, #gear4z, #gear5z, #gear6z, #gear7z, #gear8z{
+		background-size: 23px 23px;
+		height: 23px;
+		width: 23px;
+        top : 54px;
+	}
+	#gear1, #gear1z {
+		left: 50px;
+	}
+	#gear2, #gear2z {
+		left: 75px;
+	}
+	#gear3, #gear3z {
+		left: 100px;
+	}
+	#gear4, #gear4z {
+		left: 125px;
+	}
+	#gear5, #gear5z {
+		left: 150px;
+	}
+	#gear6, #gear6z {
+		left: 175px;
+	}
+	#gear7, #gear7z {
+		left: 200px;
+	}
+	#gear8, #gear8z {
+		left: 225px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	/*aside .ulclass{
+		width: 160px;
+		height:270px;
+	}*/
+	aside .ulclass li a{color:#999;
+		/*font-size:10px;
+		padding:0 17px;*/
+	}
+	/*aside .ulsubmenu{
+		margin-left:160px;
+		width:360px;
+	}*/
+	aside .ulsubmenu li a{
+		color:#000;
+	/*	font-size:10px;
+		height:25px; */
+	}
+	aside .ulsubmenu li{
+		/*width:175px;*/
+	}
+	aside .ulclass li{
+		/*height:19px; */
+	}
+	.social .fa{
+		font-size:30px;
+	}
+    .delivery {
+		margin-top: 30px;
+        right:69px
+	}
+    		
+}

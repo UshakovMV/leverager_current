@@ -1,0 +1,174 @@
+.delivery{
+	background-image:url('../images/delivery.png');
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:30px;
+	font:bold 16px sans-serif;
+	float:left;
+	margin:60px auto;
+	padding:20px 0px 20px 30px;
+	position:absolute
+}
+
+.phone{
+	background-image:url('../images/phone.png');
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:30px;
+	font:bold 16px sans-serif;
+	margin:60px auto;
+	padding:20px 0px 20px 30px;
+	position:absolute;
+	right:20px
+}
+.head-block{
+	display:block;
+	margin-top:20px;
+	min-height:90px;	
+}
+
+aside{
+	margin-top:-20px;
+	position:absolute;
+	z-index:10
+}
+
+.carousel .carousel-control{
+	outline:none;
+	z-index:1000
+}
+
+.carousel .item{
+	-moz-transition:0.7s ease-in-out opacity;
+	-o-transition:0.7s ease-in-out opacity;
+	-webkit-transition:0.7s ease-in-out opacity;
+	left: 0 !important;
+	transition:0.7s ease-in-out opacity
+}
+
+div[class*='col-'] {
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.content{
+	border-left:1px solid #fff
+}
+
+.list-unstyled li{
+	color:#000;
+	font-size:18px;
+	font-weight:bold
+}
+
+.list-unstyled li a{
+	color:#000;
+	font-size:12px
+}
+
+.products_background{
+	background-color:#53364a
+}
+
+.row img{
+	min-height:0,2%;
+	min-width:0,33125%
+}
+
+.slider_position{
+	margin-top:-20px;
+}
+
+.social .fa{
+	font-size:50px;
+	outline:none;
+	position:absolute;
+	right:27px;
+	text-align:right;
+	top:7px
+}
+
+.social .list-group-item{
+	background-color:#d6d5d5
+}
+
+.social a{
+	-moz-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	-webkit-transition:all .3s ease;
+	transition:all .3s ease
+}
+
+.social a.facebook-like i,.facebook-like h4.list-group-item-heading{
+	color:#3b5998
+}
+
+.social a.google-plus i,.google-plus h4.list-group-item-heading{
+	color:#dd4b39
+}
+
+.social a.twitter i,.twitter h4.list-group-item-heading{
+	color:#00acee
+}
+
+.social a.visitor i,.visitor h4.list-group-item-heading{
+	color:#E48A07
+}
+
+.social a.youtube i,.youtube h4.list-group-item-heading{
+	color:#c4302b
+}
+
+.social a.facebook-like:hover{
+	background-color:#3b5998
+}
+
+.social a.facebook-like:hover *{
+	color:#FFF
+}
+
+.social a.google-plus:hover{
+	background-color:#dd4b39
+}
+
+.social a.google-plus:hover *{
+	color:#FFF
+}
+
+.social a.twitter:hover{
+	background-color:#00acee
+}
+
+.social a.twitter:hover *{
+	color:#FFF
+}
+
+.social a.visitor:hover{
+	background-color:#E48A07
+}
+
+.social a.visitor:hover *{
+	color:#FFF
+}
+
+.social a.youtube:hover{
+	background-color:#c4302b
+}
+
+.social a.youtube:hover *{
+	color:#FFF
+}
+
+
+.products1, .products2, .products3 {
+	float: left;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),.row.no-gutter [class*='col-']:not(:last-child) {
+	padding-right:0;
+	padding-left:0;
+}
+
+.row.no-gutter {
+	margin: 0;
+}
