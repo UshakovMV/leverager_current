@@ -36,7 +36,7 @@
             @Html.LabelFor(model => model.Active, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Active)
-                @Html.ValidationMessageFor(model => model.Active)
+                @Html.ValidationMessageFor(model => model.Active)                
             </div>
         </div>
 
@@ -49,10 +49,13 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ParentName, new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.ParentID, new { @class = "control-label col-md-2" })
             <div class="col-md-10">               
-                @Html.EditorFor(model => model.ParentName)
-                @Html.ValidationMessageFor(model => model.ParentName)
+                @Html.DropDownList("ParentID")
+                @*@Html.DropDownList("ParentName", "All")*@
+                @*@Html.EditorFor(model => model.ParentName)
+                @Html.ValidationMessageFor(model => model.ParentName)*@
+                @Html.ValidationMessageFor(model => model.ParentID)                
             </div>
         </div>
 

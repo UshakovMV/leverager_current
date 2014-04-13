@@ -10,134 +10,107 @@ using Leverager_projects.Models;
 
 namespace Leverager_projects.Controllers
 {
-    public class CategoryesController : Controller
+    public class ProductsController : Controller
     {
         private LeveragerDBContext db = new LeveragerDBContext();
 
-        private void CategoryDropDownList(object selectedCategory = null)
-        {
-            //var ParentList = new List<string>();
-
-            /*var ParentQry = from d in db.Categoryes
-                            where d.Master == true
-                            select new {d.Name, d.ID};*/
-
-            var ParentQry = (from d in db.Categoryes
-                             where d.Master == true
-                             select d).ToList<Category>();
-
-            //ParentList.AddRange(ParentQry.Distinct());
-            //ViewBag.ParentName = new SelectList(ParentList);
-            ViewBag.ParentID = new SelectList(ParentQry, "ID", "Name", selectedCategory);
-            //ViewBag.ParentName = ParentQry.ToList();
-
-        }
-             
-        // GET: /Categoryes/
+        // GET: /Products/
         public ActionResult Index()
         {
-            return View(db.Categoryes.ToList());
+            return View(db.Products.ToList());
         }
 
-        // GET: /Categoryes/Details/5
+        // GET: /Products/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categoryes.Find(id);
-            if (category == null)
+            Products products = db.Products.Find(id);
+            if (products == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View(products);
         }
 
-        // GET: /Categoryes/Create
-        public ActionResult Create(object selectedDepartment = null)
+        // GET: /Products/Create
+        public ActionResult Create()
         {
-            CategoryDropDownList();
-
             return View();
         }
 
-        // POST: /Categoryes/Create
+        // POST: /Products/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include="ID,Name,Descriptions,Active,Master,ParentId")] Category category)
+        public ActionResult Create([Bind(Include="ProductID,SKU,ProductName,ProductDescriptions,CategoryID,SupplierID,QuantityPerUnit,UnitPrice,MSRP,AvailableSize,AvailableColors,Size,Colors,Discount,UnitWeight,PictureUrl,Ranking")] Products products)
         {
             if (ModelState.IsValid)
             {
-                if (category.Master == true)  {
-                    category.ParentID = null;
-                }
-                db.Categoryes.Add(category);
+                db.Products.Add(products);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(category);
+            return View(products);
         }
 
-        // GET: /Categoryes/Edit/5
+        // GET: /Products/Edit/5
         public ActionResult Edit(int? id)
         {
-
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categoryes.Find(id);
-            if (category == null)
+            Products products = db.Products.Find(id);
+            if (products == null)
             {
                 return HttpNotFound();
             }
-            CategoryDropDownList(category.ParentID);
-
-            return View(category);
+            return View(products);
         }
 
-        // POST: /Categoryes/Edit/5
+        // POST: /Products/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include="ID,Name,Descriptions,Active,Master,ParentName")] Category category)
+        public ActionResult Edit([Bind(Include="ProductID,SKU,ProductName,ProductDescriptions,CategoryID,SupplierID,QuantityPerUnit,UnitPrice,MSRP,AvailableSize,AvailableColors,Size,Colors,Discount,UnitWeight,PictureUrl,Ranking")] Products products)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(category).State = EntityState.Modified;
+                db.Entry(products).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(category);
+            return View(products);
         }
 
-        // GET: /Categoryes/Delete/5
+        // GET: /Products/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Category category = db.Categoryes.Find(id);
-            if (category == null)
+            Products products = db.Products.Find(id);
+            if (products == null)
             {
                 return HttpNotFound();
             }
-            return View(category);
+            return View(products);
         }
 
-        // POST: /Categoryes/Delete/5
+        // POST: /Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Category category = db.Categoryes.Find(id);
-            db.Categoryes.Remove(category);
+            Products products = db.Products.Find(id);
+            db.Products.Remove(products);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

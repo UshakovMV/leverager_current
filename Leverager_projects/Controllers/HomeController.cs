@@ -13,8 +13,12 @@ namespace Leverager_projects.Controllers
         private LeveragerDBContext db = new LeveragerDBContext();
 
         public ActionResult Index()
-        {
-            return View(db.Categoryes.ToList());
+        {            
+            var Category = from d in db.Categoryes                            
+                            select d;            
+            var model = Category.ToList();
+
+            return View(model);
         }
 
         public ActionResult About()

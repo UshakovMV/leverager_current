@@ -16,13 +16,36 @@
         <aside>
             <ul class="ulclass">
                 @foreach (var item in Model)
+{
+    if (item.Master)
+    {
+        <li>
+            <a href="#">@Html.DisplayFor(modelItem => item.Name)</a>
+            <ul class="ulsubmenu">
+                @foreach (var category in Model)
                 {
-                    <li>
-                        <a href="#">
-                            @Html.DisplayFor(modelItem => item.Name)
-                        </a>
-                    </li>
+                    if (category.ParentID == item.ID)
+                    {
+                        <li><a href="#">@Html.DisplayFor(modelitem => category.Name)</a></li>
+                    }
                 }
+            </ul>
+        </li>
+    }
+
+    /*if (item.Name == @submenu.parentname)
+    <ul class="ulsubmenu">
+        @foreach (var subitem in Model)
+         {
+            <li>
+                <a href="#">
+                    @Html.DisplayFor(modelSubItem => subitem.Name, subitem.Master==false&&subitem.ParentName==item.Name)
+                </a>
+            </li>
+        }
+        </ul>*/
+
+}
             </ul>
         </aside>
     </div>

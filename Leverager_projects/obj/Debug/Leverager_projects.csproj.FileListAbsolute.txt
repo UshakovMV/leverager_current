@@ -53,3 +53,64 @@ c:\users\администратор\documents\visual studio 2013\Projects\Levera
 c:\users\администратор\documents\visual studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.csprojResolveAssemblyReference.cache
 c:\users\администратор\documents\visual studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.dll
 c:\users\администратор\documents\visual studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.pdb
+C:\2\Leverager_projects\Leverager_projects\bin\Leverager_projects.dll.config
+C:\2\Leverager_projects\Leverager_projects\bin\Leverager_projects.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Leverager_projects.pdb
+C:\2\Leverager_projects\Leverager_projects\bin\Antlr3.Runtime.dll
+C:\2\Leverager_projects\Leverager_projects\bin\EntityFramework.dll
+C:\2\Leverager_projects\Leverager_projects\bin\EntityFramework.SqlServer.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.Core.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Cookies.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Facebook.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Google.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.OAuth.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Twitter.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Web.Infrastructure.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Newtonsoft.Json.dll
+C:\2\Leverager_projects\Leverager_projects\bin\Owin.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Helpers.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Mvc.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Optimization.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Razor.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.Deployment.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.Razor.dll
+C:\2\Leverager_projects\Leverager_projects\bin\WebGrease.dll
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Helpers.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Mvc.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Optimization.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.Razor.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.Deployment.xml
+C:\2\Leverager_projects\Leverager_projects\bin\System.Web.WebPages.Razor.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Newtonsoft.Json.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Antlr3.Runtime.pdb
+C:\2\Leverager_projects\Leverager_projects\bin\EntityFramework.xml
+C:\2\Leverager_projects\Leverager_projects\bin\EntityFramework.SqlServer.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.Core.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Facebook.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Cookies.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.OAuth.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Google.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.Twitter.xml
+C:\2\Leverager_projects\Leverager_projects\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.csprojResolveAssemblyReference.cache
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.dll
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.pdb
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.Migrations.InitialCreate.resources
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.csproj.GenerateResource.Cache
+C:\2\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.Migrations._1.resources
+C:\Users\Администратор\Documents\Visual Studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.Migrations.InitialCreate.resources
+C:\Users\Администратор\Documents\Visual Studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.Migrations._1.resources
+C:\Users\Администратор\Documents\Visual Studio 2013\Projects\Leverager_projects\Leverager_projects\obj\Debug\Leverager_projects.csproj.GenerateResource.Cache

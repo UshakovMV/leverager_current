@@ -24,7 +24,7 @@
             @Html.DisplayNameFor(model => model.Master)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ParentName)
+            @Html.DisplayNameFor(model => model.ParentID)
         </th>
         <th></th>
     </tr>
@@ -44,7 +44,7 @@
             @Html.DisplayFor(modelItem => item.Master)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.ParentName)
+            @Html.DisplayFor(modelItem => item.ParentID)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
